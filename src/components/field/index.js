@@ -222,6 +222,7 @@ export default class TextField extends PureComponent {
     let { animationDuration: duration } = this.props;
 
     let options = {
+      useNativeDriver:false,
       toValue: this.focusState(),
       duration,
     };
